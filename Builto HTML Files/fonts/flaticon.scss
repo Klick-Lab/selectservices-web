@@ -1,0 +1,285 @@
+$flaticon_builto-font: "flaticon_builto";
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon.ttf?40d4b6fdec78d78ea8cc033587671d95") format("truetype"),
+url("../fonts/flaticon.woff?40d4b6fdec78d78ea8cc033587671d95") format("woff"),
+url("../fonts/flaticon.woff2?40d4b6fdec78d78ea8cc033587671d95") format("woff2"),
+url("../fonts/flaticon.eot?40d4b6fdec78d78ea8cc033587671d95#iefix") format("embedded-opentype"),
+url("../fonts/flaticon.svg?40d4b6fdec78d78ea8cc033587671d95#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: "Flaticon";
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_builto-map: (
+    "upgrade": "\f101",
+    "hammer": "\f102",
+    "calculator": "\f103",
+    "setting": "\f104",
+    "pickaxe": "\f105",
+    "wall": "\f106",
+    "camera-drone": "\f107",
+    "road": "\f108",
+    "warning-sign": "\f109",
+    "ruler": "\f10a",
+    "monitor-screen": "\f10b",
+    "building": "\f10c",
+    "wrench": "\f10d",
+    "pencil": "\f10e",
+    "clipboard": "\f10f",
+    "plug": "\f110",
+    "house": "\f111",
+    "wagon": "\f112",
+    "ladder": "\f113",
+    "torch": "\f114",
+    "screw": "\f115",
+    "conveyor-belt": "\f116",
+    "screw-driver": "\f117",
+    "drilling-machine": "\f118",
+    "web-browser": "\f119",
+    "saw": "\f11a",
+    "setting-1": "\f11b",
+    "road-barrier": "\f11c",
+    "axe": "\f11d",
+    "divider": "\f11e",
+    "spirit-level": "\f11f",
+    "road-map": "\f120",
+    "mail": "\f121",
+    "wall-clock": "\f122",
+    "measuring-tape": "\f123",
+    "ruler-1": "\f124",
+    "screw-1": "\f125",
+    "battery": "\f126",
+    "helmet": "\f127",
+    "ruler-2": "\f128",
+    "jackhammer": "\f129",
+    "cross-wrench": "\f12a",
+    "factory": "\f12b",
+    "pie-chart": "\f12c",
+    "cutter": "\f12d",
+    "container": "\f12e",
+    "customer-support": "\f12f",
+    "construction-worker": "\f130",
+    "blueprint": "\f131",
+    "sketch": "\f132",
+    "excavator": "\f133",
+    "helmet-1": "\f134",
+    "email": "\f135",
+    "envelope": "\f136",
+    "call": "\f137",
+    "phone-call": "\f138",
+    "pin": "\f139",
+    "pin-1": "\f13a",
+    "check-mark": "\f13b",
+    "check-box": "\f13c",
+    "check": "\f13d",
+    "dot": "\f13e",
+    "period": "\f13f",
+    "plus": "\f140",
+    "minimize-sign": "\f141",
+);
+
+.flaticon-upgrade:before {
+    content: map-get($flaticon_builto-map, "upgrade");
+}
+.flaticon-hammer:before {
+    content: map-get($flaticon_builto-map, "hammer");
+}
+.flaticon-calculator:before {
+    content: map-get($flaticon_builto-map, "calculator");
+}
+.flaticon-setting:before {
+    content: map-get($flaticon_builto-map, "setting");
+}
+.flaticon-pickaxe:before {
+    content: map-get($flaticon_builto-map, "pickaxe");
+}
+.flaticon-wall:before {
+    content: map-get($flaticon_builto-map, "wall");
+}
+.flaticon-camera-drone:before {
+    content: map-get($flaticon_builto-map, "camera-drone");
+}
+.flaticon-road:before {
+    content: map-get($flaticon_builto-map, "road");
+}
+.flaticon-warning-sign:before {
+    content: map-get($flaticon_builto-map, "warning-sign");
+}
+.flaticon-ruler:before {
+    content: map-get($flaticon_builto-map, "ruler");
+}
+.flaticon-monitor-screen:before {
+    content: map-get($flaticon_builto-map, "monitor-screen");
+}
+.flaticon-building:before {
+    content: map-get($flaticon_builto-map, "building");
+}
+.flaticon-wrench:before {
+    content: map-get($flaticon_builto-map, "wrench");
+}
+.flaticon-pencil:before {
+    content: map-get($flaticon_builto-map, "pencil");
+}
+.flaticon-clipboard:before {
+    content: map-get($flaticon_builto-map, "clipboard");
+}
+.flaticon-plug:before {
+    content: map-get($flaticon_builto-map, "plug");
+}
+.flaticon-house:before {
+    content: map-get($flaticon_builto-map, "house");
+}
+.flaticon-wagon:before {
+    content: map-get($flaticon_builto-map, "wagon");
+}
+.flaticon-ladder:before {
+    content: map-get($flaticon_builto-map, "ladder");
+}
+.flaticon-torch:before {
+    content: map-get($flaticon_builto-map, "torch");
+}
+.flaticon-screw:before {
+    content: map-get($flaticon_builto-map, "screw");
+}
+.flaticon-conveyor-belt:before {
+    content: map-get($flaticon_builto-map, "conveyor-belt");
+}
+.flaticon-screw-driver:before {
+    content: map-get($flaticon_builto-map, "screw-driver");
+}
+.flaticon-drilling-machine:before {
+    content: map-get($flaticon_builto-map, "drilling-machine");
+}
+.flaticon-web-browser:before {
+    content: map-get($flaticon_builto-map, "web-browser");
+}
+.flaticon-saw:before {
+    content: map-get($flaticon_builto-map, "saw");
+}
+.flaticon-setting-1:before {
+    content: map-get($flaticon_builto-map, "setting-1");
+}
+.flaticon-road-barrier:before {
+    content: map-get($flaticon_builto-map, "road-barrier");
+}
+.flaticon-axe:before {
+    content: map-get($flaticon_builto-map, "axe");
+}
+.flaticon-divider:before {
+    content: map-get($flaticon_builto-map, "divider");
+}
+.flaticon-spirit-level:before {
+    content: map-get($flaticon_builto-map, "spirit-level");
+}
+.flaticon-road-map:before {
+    content: map-get($flaticon_builto-map, "road-map");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon_builto-map, "mail");
+}
+.flaticon-wall-clock:before {
+    content: map-get($flaticon_builto-map, "wall-clock");
+}
+.flaticon-measuring-tape:before {
+    content: map-get($flaticon_builto-map, "measuring-tape");
+}
+.flaticon-ruler-1:before {
+    content: map-get($flaticon_builto-map, "ruler-1");
+}
+.flaticon-screw-1:before {
+    content: map-get($flaticon_builto-map, "screw-1");
+}
+.flaticon-battery:before {
+    content: map-get($flaticon_builto-map, "battery");
+}
+.flaticon-helmet:before {
+    content: map-get($flaticon_builto-map, "helmet");
+}
+.flaticon-ruler-2:before {
+    content: map-get($flaticon_builto-map, "ruler-2");
+}
+.flaticon-jackhammer:before {
+    content: map-get($flaticon_builto-map, "jackhammer");
+}
+.flaticon-cross-wrench:before {
+    content: map-get($flaticon_builto-map, "cross-wrench");
+}
+.flaticon-factory:before {
+    content: map-get($flaticon_builto-map, "factory");
+}
+.flaticon-pie-chart:before {
+    content: map-get($flaticon_builto-map, "pie-chart");
+}
+.flaticon-cutter:before {
+    content: map-get($flaticon_builto-map, "cutter");
+}
+.flaticon-container:before {
+    content: map-get($flaticon_builto-map, "container");
+}
+.flaticon-customer-support:before {
+    content: map-get($flaticon_builto-map, "customer-support");
+}
+.flaticon-construction-worker:before {
+    content: map-get($flaticon_builto-map, "construction-worker");
+}
+.flaticon-blueprint:before {
+    content: map-get($flaticon_builto-map, "blueprint");
+}
+.flaticon-sketch:before {
+    content: map-get($flaticon_builto-map, "sketch");
+}
+.flaticon-excavator:before {
+    content: map-get($flaticon_builto-map, "excavator");
+}
+.flaticon-helmet-1:before {
+    content: map-get($flaticon_builto-map, "helmet-1");
+}
+.flaticon-email:before {
+    content: map-get($flaticon_builto-map, "email");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon_builto-map, "envelope");
+}
+.flaticon-call:before {
+    content: map-get($flaticon_builto-map, "call");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon_builto-map, "phone-call");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon_builto-map, "pin");
+}
+.flaticon-pin-1:before {
+    content: map-get($flaticon_builto-map, "pin-1");
+}
+.flaticon-check-mark:before {
+    content: map-get($flaticon_builto-map, "check-mark");
+}
+.flaticon-check-box:before {
+    content: map-get($flaticon_builto-map, "check-box");
+}
+.flaticon-check:before {
+    content: map-get($flaticon_builto-map, "check");
+}
+.flaticon-dot:before {
+    content: map-get($flaticon_builto-map, "dot");
+}
+.flaticon-period:before {
+    content: map-get($flaticon_builto-map, "period");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon_builto-map, "plus");
+}
+.flaticon-minimize-sign:before {
+    content: map-get($flaticon_builto-map, "minimize-sign");
+}
