@@ -16,15 +16,15 @@ INDEX:
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet');
  :root {
-     --pbmit-global-color: #f9ad00;
+     --pbmit-global-color: #204498;
      --pbmit-secondary-color: #001e4c;
      --pbmit-light-color: #f1f1f1;
      --pbmit-white-color: #ffffff;
      --pbmit-blackish-color: #071323;
-     --pbmit-link-color-normal: #001e4c;
-     --pbmit-link-color-hover: #f9ad00;
-     --pbmit-global-color-rgb: rgb(249, 173, 0);
-     --pbmit-secondary-color-rgb:rgb(0, 30, 76);
+     --pbmit-link-color-normal: #001636;
+     --pbmit-link-color-hover: #204498;
+     --pbmit-global-color-rgb: #204498;
+     --pbmit-secondary-color-rgb:#204498;
      --pbmit-responsive-breakpoint: 1200px;
      --pbmit-body-typography-font-family:'Rubik', sans-serif;
      --pbmit-body-typography-variant: regular;
@@ -32,7 +32,7 @@ INDEX:
      --pbmit-body-typography-line-height: 28px;
      --pbmit-body-typography-color: #666666;
      --pbmit-heading-typography-font-family:'Space Grotesk', sans-serif;
-     --pbmit-heading-color: #071323;
+     --pbmit-heading-color: #030910;
      --pbmit-heading-font-variant: 700;
      --pbmit-btn-typography-font-family:'Space Grotesk', sans-serif;
      --pbmit-btn-typography-variant: 700;
@@ -547,6 +547,9 @@ INDEX:
      height: 60px;
      display: block;
      width: auto;
+}
+.hidden {
+    display: none !important;
 }
  .site-header{
      z-index: 999;

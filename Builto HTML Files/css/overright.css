@@ -1,0 +1,21 @@
+.f_override {
+    color: #204498 !important;
+}
+.b_override {
+    background-color: #204498 !important;
+}
+
+.white {
+    color: white !important;
+}
+
+.stroke-white {
+    stroke: white !important;
+}
+.red ::after {
+    background-color: #D92D34 !important;
+
+}
+.text-red ::after {
+    color: #D92D34;
+}
