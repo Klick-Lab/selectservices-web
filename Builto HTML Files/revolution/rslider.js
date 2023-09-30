@@ -24,7 +24,7 @@ var	tpj = jQuery;
 					wheelCallDelay:1000,
 					onHoverStop:false,
 					arrows: {
-						enable:true,
+						enable:false,
 						style:"persephone",
 						hide_onmobile:true,
 						hide_under:"991px",

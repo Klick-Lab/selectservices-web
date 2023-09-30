@@ -2882,7 +2882,7 @@ body {
 }
 #rev_slider_1_1_wrapper .persephone.tparrows{
 	cursor:pointer;
-	background:#204498;
+	background:#f9ad00;
 	width:70px;
 	height:70px;
 	position:absolute;
@@ -3081,6 +3081,7 @@ body {
 	background:rgb(125,125,125)
 }
 .rev-btn.pbmit-rev2-svg-arrow.pbmit-rev3-svg-arrow:hover svg.pbmit-svg-arrow line {
+
     stroke: var(--pbmit-blackish-color);
 }
 
