@@ -1739,7 +1739,7 @@ body {
 	display: inline-block;
 }
 .pbmit-testimonial-style-1 .pbmit-featured-wrapper img {
-	min-width: 250px;
+	min-width: 30px;
     height: auto;
     margin-right: 50px;
 }
