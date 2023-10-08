@@ -3802,3 +3802,6 @@ body {
     background: var(--pbmit-blackish-color);
     color: var(--pbmit-white-color);
 }
+.klicklab{
+	font-size: 14px !important;
+}
