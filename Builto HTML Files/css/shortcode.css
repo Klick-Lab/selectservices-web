@@ -2291,7 +2291,7 @@ body {
 .pbmit-footer-logo-box {
     text-align: center;
     height: 76px;
-    background-color: var(--pbmit-global-color);
+    background-color: rgb(169, 169, 169);
     padding: 13px 20px 16px;
 }
 .pbmit-footer-logo-box img{
