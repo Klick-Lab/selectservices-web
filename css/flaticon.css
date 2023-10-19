@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Flaticon";
-    src: url("../fonts/flaticon.ttf?40d4b6fdec78d78ea8cc033587671d95") format("truetype"),
-url("../fonts/flaticon.woff?40d4b6fdec78d78ea8cc033587671d95") format("woff"),
-url("../fonts/flaticon.woff2?40d4b6fdec78d78ea8cc033587671d95") format("woff2"),
-url("../fonts/flaticon.eot?40d4b6fdec78d78ea8cc033587671d95#iefix") format("embedded-opentype"),
-url("../fonts/flaticon.svg?40d4b6fdec78d78ea8cc033587671d95#flaticon") format("svg");
+    src: url("../fonts/Flaticon.woff") format("truetype"),
+url("../fonts/flaticon.woff") format("woff"),
+url("../fonts/Flaticon.woff2") format("woff2"),
+url("../fonts/Flaticon.eot") format("embedded-opentype"),
+url("../fonts/Flaticon.svg") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" pbmit-builto-icon-"]:before {
