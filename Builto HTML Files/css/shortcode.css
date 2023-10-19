@@ -2335,7 +2335,7 @@ body {
 /*  10 - Title Bar
 /*----------------------------------------*/
 .pbmit-title-bar-wrapper{
-	background-image: url(../images/titlebar-bg.jpg);
+	background-image: url(../images/titlebar-bg.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
